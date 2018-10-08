@@ -718,7 +718,7 @@ a img:hover {
 /*------------------------------------------------------------------------------------------*/
 
 h1 {
-    padding: 20px 0;
+    padding: 14px 0;
 }
 
 h2 {
@@ -758,7 +758,9 @@ h6 {
 /* Section Headings */
 
 .section-heading {
-    padding: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    text-align: left;
+    font-size: 20px;
 }
 
 .section-subtitle {
@@ -781,6 +783,9 @@ h6 {
 #banner {
     background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat center top;
     background-size: cover;
+    
+
+    
 }
 
 #banner-content.row {
@@ -1580,8 +1585,6 @@ blockquote {
 
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
- * Copyright 2015 Daniel Cardoso <@DanielCardoso>
- * Licensed under MIT
  */
 .la-ball-triangle-path,
 .la-ball-triangle-path > div {
